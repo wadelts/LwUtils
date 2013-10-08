@@ -1,0 +1,3 @@
+This project defines helpers for implementing graceful shutdown of a java application.
+
+See GeMHaBatch.java in the GeMHa project for an example use of these items.
