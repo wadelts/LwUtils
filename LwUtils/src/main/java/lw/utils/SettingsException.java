@@ -5,19 +5,24 @@ package lw.utils;
   * @author Liam Wade
   * @version 1.0 07/11/2008
   */
-public class LwSettingsException extends Exception
+public class SettingsException extends Exception
 {
   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+/**
     * Will create a new exception.
     */
-	public LwSettingsException() {
+	public SettingsException() {
 	}
 
   /**
     * Will create a new exception with the given reason.
 	* @param reason the text explaining the error
     */
-	public LwSettingsException(String reason) {
+	public SettingsException(String reason) {
 		super(reason);
 	}
 }
